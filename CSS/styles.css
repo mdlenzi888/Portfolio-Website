@@ -1,0 +1,243 @@
+body, h1, p {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* -- Header -- */
+
+.intro-container {
+    position: relative;
+    background-color: #B1D0E0;
+    color: #1C658C;
+    height: 300px;
+}
+
+.bg-letter {
+    position: absolute;
+    left: 5%;
+    font-family: 'Smooch', cursive;
+    font-size: 200px;
+    opacity: 8%;
+    letter-spacing: 1rem;
+}
+
+.name-container {
+    position: absolute;
+    display: inline-block;
+    left: 25%;
+    bottom: -10px;
+}
+
+.name {
+    position: relative;
+    display: inline-block;
+    font-size: 5rem;
+    text-shadow: -2px -2px #CAF0F8;
+}
+
+.headshot {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    margin-left: 15px;
+    top: 90px;
+    width: 250px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* -- Sub-Header -- */
+
+.sub-container {
+    position: relative;
+    background-color: #1C658C;
+    color: #B1D0E0;
+    height: 100px;
+}
+
+.sub-text {
+    position: absolute;
+    left: 25%;
+    top: 3px;
+    font-size: 2rem;
+    text-shadow: .5px .5px #FFFFFF;
+}
+
+/* -- Intro -- */
+
+.middle-container {
+    position: relative;
+    background-color: #FFFFFF;
+    color: #1C658C;
+}
+
+.intro {
+    position: relative;
+    margin: 0;
+    padding: 100px 20% 0;
+}
+
+.topic-header {
+    margin: 0 0 30px;
+    font-family: 'Source Code Pro', monospace;
+    color: #398AB9;
+    font-size: 30px;
+    text-shadow: 2px 2px #CAF0F8;
+}
+
+.topic-content {
+    font-size: 20px;
+}
+
+hr {
+    margin: 100px 20%;
+    border: 0;
+	background-image: linear-gradient(to right, #B1D0E0, #EFFFFD, #FFFFFF);
+	height: 3px;
+}
+
+/* -- Skills -- */
+
+.skills {
+    position: relative;
+    margin: 0;
+    padding: 0 20%;
+
+}
+
+.skill-set {
+    position: relative;
+}
+
+.skill-img {
+    width: 250px;
+}
+
+.skill-text {
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    width: 60%;
+    height: 100%;
+    text-align: left;
+}
+
+.python-set {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1110px) {
+    .skill-img {
+        width: 200px;
+    }
+
+    .headshot {
+        position: absolute;
+        top: -200px;
+        right: 10%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 745px) {
+    .skill-text {
+        position: relative;
+    }
+
+    .headshot {
+        display: none;
+    }
+}
+
+/* -- Projects -- */
+.projects {
+    position: relative;
+}
+
+.project {
+    padding: 20px 0 0;
+}
+
+.project-img {
+    position: relative;
+    width: 50px;
+}
+
+h4 {
+    display: inline;
+    margin-right: 40px;
+}
+
+.link:hover {
+  opacity: 50%;
+}
+
+/* -- Contact -- */
+
+.contact {
+    position: relative;
+    margin: 0;
+    padding: 0 20% 100px;
+}
+
+.closing {
+    margin-bottom: 30px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    background: #4FBDBA;
+    background-image: -webkit-linear-gradient(top, #4FBDBA, #2980b9);
+    background-image: -moz-linear-gradient(top, #4FBDBA, #2980b9);
+    background-image: -ms-linear-gradient(top, #4FBDBA, #2980b9);
+    background-image: -o-linear-gradient(top, #4FBDBA, #2980b9);
+    background-image: linear-gradient(to bottom, #4FBDBA, #2980b9);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* -- Footer -- */
+
+.bottom-container {
+
+}
+.bottom-container {
+    background-color: #1C658C;
+    height: 100px;
+    text-align: center;
+}
+.footer-link {
+    position: relative;
+    top: 30px;
+    color: #B1D0E0;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.footer-link:hover {
+    color: #CAF0F8
+}
+.copyright {
+    position: relative;
+    top: 40px;
+    color:#EAF6F6;
+    font-size: 14px;
+}
